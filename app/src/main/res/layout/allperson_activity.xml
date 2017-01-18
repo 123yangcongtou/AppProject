@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/allperson_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lisc.appproject.tvActivityTitle.view.TVTitleActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff1fac12">;
+    </android.support.v7.widget.Toolbar>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff1fac12"
+        app:tabIndicatorColor="#fff"
+        app:tabSelectedTextColor="#fff"
+        app:tabTextColor="#fff"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_tv_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

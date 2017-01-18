@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/fabu"
+            android:icon="@mipmap/btn_jubao_red"
+            android:title="发布模块" />
+        <item
+            android:id="@+id/quanmin"
+            android:icon="@mipmap/btn_jubao_red"
+            android:title="全民TV" />
+    </group>
+    <item android:title="选项">
+        <menu>
+            <item
+                android:id="@+id/shezhi"
+                android:icon="@mipmap/btn_jubao_red"
+                android:title="设置" />
+            <item
+                android:id="@+id/guanyu"
+                android:icon="@mipmap/btn_jubao_red"
+                android:title="关于" />
+
+        </menu>
+    </item>
+</menu>

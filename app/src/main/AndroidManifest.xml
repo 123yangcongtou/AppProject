@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lisc.appproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ww"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".shouyeActivity.ManagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tvActivityTitle.view.TVTitleActivity" />
+        <!-- <activity android:name=".shouyeActivity.MainActivity" /> -->
+        <activity android:name=".MoshiActivity" />
+        <activity android:name=".shouyefragment.weixinFragment.view.WeixinActivity" />
+        <activity android:name=".shouyefragment.specialitemActivity.view.SpecialActivity" />
+        <activity android:name=".shouyefragment.specialcontentActivity.view.ContentActivity" />
+        <activity android:name=".shouyefragment.newscontentActivity.view.NewsContentActivity" />
+        <activity android:name=".tvfragment.atNowvideo.view.VideoActivity" />
+        <activity android:name=".tvfragment.atNowvideo.view.FullActivity"
+                  android:configChanges="orientation|screenSize|keyboardHidden"
+            >
+        </activity>
+    </application>
+
+</manifest>
